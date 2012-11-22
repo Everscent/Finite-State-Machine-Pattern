@@ -19,7 +19,7 @@ which in this simple projects just means that it starts jumping.
 <p>
 The scope of this demo is to show how to implement the Finite State Machine Pattern in Unity. Ergo, it is what happens under the hood that matters.
 The monster class uses composition to delegate the action performed in its Update method to a "state" object. The state object is swapped 
-accordingly to what happens in the scene. For instance, the monster would start in the "Rest" state, but when the player crosses a trigger- collider
+accordingly to what happens in the scene. For instance, the monster would start in the "Rest" state, but when the player crosses a certain trigger-collider
 the state changes to "attackState". The states are classes inheriting from a IState interface. Indeed the most important thing here is that 
 the "monster" class does not know anything about the state themselves, only knows their interface!
 </p>

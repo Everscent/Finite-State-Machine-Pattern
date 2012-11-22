@@ -35,7 +35,7 @@ state themselves dictate when the state should change to something else. This is
 </li>
 <li>
 	Second, this implementation changes states invoking a method in the Monster class as in the following <code> ChangeState( new RestState ) </code>. 
-	This means that we instantiate a new state object every time we change state, which just means we are in the hands in the 
+	This means that we instantiate a new state object every time we change state, which just means we are in the hands of the 
 	garbage collector that will have to take care of this. This too could be avoided having a StateManager class that instantiates all the states once
 	and uses them in  <code> ChangeState( myRestState ) </code>. However this would create additional complications and obfuscate the part
 	of the code that is actually relevant for the Finite State Machine pattern, which actually does not specify how to handle the state change.

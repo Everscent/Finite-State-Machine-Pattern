@@ -12,7 +12,7 @@ Description
 Finite State Machine Pattern in Unity is a demo project part of a tutorial that can be found on www.DoorApps.com. It consists in a simple 
 scene with a sphere representing the playing character, that can be moved with the arrow keys, and a cylinder representing 
 the enemy "monster". The enemy is "asleep" till the sphere gets closer, then the cylinder wakes up and initiate the "attack" mode, 
-which in this simple projects just mean that it start jumping.
+which in this simple projects just means that it starts jumping.
 </p>
 
 

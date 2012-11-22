@@ -25,7 +25,7 @@ public class Monster : MonoBehaviour {
 	/**
 	 * Update calls the current state Update()
 	 */ 
-	private void Update () 
+	private void Update() 
 	{
 		m_curState.Update(this);
 	}

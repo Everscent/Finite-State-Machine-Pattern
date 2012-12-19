@@ -9,7 +9,7 @@ website: www.DoorApps.com
 Description
 ===========
 <p>
-Finite State Machine Pattern in Unity is a demo project part of a tutorial that can be found on www.DoorApps.com. It consists in a simple 
+Finite State Machine Pattern in Unity is a demo project part of a tutorial that can be found on <a href="http://www.doorapps.com/2012/11/22/finite-state-machine-pattern-in-unity-simple-version/">www.DoorApps.com</a>. It consists in a simple 
 scene with a sphere representing the playing character, that can be moved with the arrow keys, and a cylinder representing 
 the enemy "monster". The enemy is "asleep" till the sphere gets closer, then the cylinder wakes up and initiate the "attack" mode, 
 which in this simple projects just means that it starts jumping.
